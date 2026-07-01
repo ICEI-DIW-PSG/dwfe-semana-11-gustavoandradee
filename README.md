@@ -6,36 +6,53 @@ Imagine que a página principal (home-page) mostre um visão dos vários itens q
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Decreva brevemente seu projeto
+- Nome: Luiz Gustavo Campos Andrade
+- Matricula: 928390 
+- Decreva brevemente seu projeto: 
 
 ## Prints do trabalho
 
 <<  COLOQUE A IMAGEM - HOME-PAGE - AQUI >>
+![alt text](image-1.png)
 
 <<  COLOQUE A IMAGEM - TELA DE DETALHES - AQUI >>
+![alt text](image.png)
 
 ## Dados em JSON
 Inclua aqui a estrutura de dados definida por você para o projeto com pelo menos dois exemplo de dados.
 
 ```json
 {
-  "animes": [
-    {
-      "id": 1,
-      "nome": "Naruto",
-      "genero": "Ação",
-      "destaque": true
-    },
-    {
-      "id": 2,
-      "nome": "Fullmetal Alchemist",
-      "genero": "Aventura",
-      "destaque": false
-    }
-  ]
-}
+            id: 1,
+            nome: "O Alienista",
+            autor: "Machado de Assis",
+            genero: "Ficção Literária",
+            ano: 1882,
+            paginas: 96,
+            destaque: true,
+            imagem: "../images/oalienista.jpg",
+            descricao: "Clássico da literatura brasileira que acompanha os estudos do médico Simão Bacamarte sobre a loucura na cidade de Itaguaí.",
+            personagens: [
+                { nome: "Simão Bacamarte", imagem: "../images/oalienista.jpg" },
+                { nome: "Dona Evarista", imagem: "../images/oalienista.jpg" },
+                { nome: "Padre Lopes", imagem: "../images/oalienista.jpg" }
+            ]
+        },
+        {
+            id: 2,
+            nome: "O Cérebro Leitor",
+            autor: "Stanislas Dehaene",
+            genero: "Ciência / Psicologia",
+            ano: 2007,
+            paginas: 396,
+            destaque: true,
+            imagem: "../images/ocerebroleitor.jpg",
+            descricao: "Uma investigação profunda sobre como a leitura transforma nossa mente e como a nossa arquitetura cerebral se adapta à palavra escrita.",
+            personagens: [
+                { nome: "Córtex Visual", imagem: "../images/ocerebroleitor.jpg" },
+                { nome: "Neurônios de Leitura", imagem: "../images/ocerebroleitor.jpg" }
+            ]
+        }
 ```
 
 
